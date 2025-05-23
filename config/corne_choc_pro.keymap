@@ -70,10 +70,10 @@
         symbol_layer {
             display-name = "SYMBOL";
             bindings = <
-&trans  &trans    &kp APOS  &kp LT     &kp GT     &kp PRCNT  &kp DEL   &kp BSPC  &kp DLLR   &kp QMARK  &kp PRCNT  &kp CARET  &trans    &trans
-&trans  &kp CLCK  &kp PLUS  &kp EQUAL  &kp STAR   &kp HASH   &kp LBRC  &kp RBRC  &kp PIPE   &kp SLASH  &kp BSLH   &kp AMPS   &kp SEMI  &trans
-&trans  &trans    &kp EXCL  &kp MINUS  &kp GRAVE  &trans                         &kp COLON  &kp TILDE  &kp AT     &trans     &trans    &trans
-                            &trans     &kp DEL    &trans                         &trans     &trans     &trans
+&trans  &kp GRAVE        &kp SLASH      &kp ASTERISK      &kp DOUBLE_QUOTES  &kp PERIOD        &none  &none  &kp AMPERSAND  &kp SEMI    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT   &kp BACKSPACE
+&trans  &kp EXCLAMATION  &kp MINUS      &kp PLUS          &kp EQUAL          &kp HASH          &none  &none  &kp PIPE       &kp COLON   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp QUESTION  &trans
+&trans  &kp TILDE        &kp LESS_THAN  &kp GREATER_THAN  &kp BACKSLASH      &kp LS(NUMBER_6)                &kp TILDE      &kp DOLLAR  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT        &trans
+                                        &kp SPACE         &none              &trans                          &trans         &trans      &kp ENTER
             >;
         };
 
